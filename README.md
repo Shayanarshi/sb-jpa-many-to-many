@@ -35,3 +35,25 @@ src/main/java/in/ashokit
 ├── runner
 │   └── MyApplicationRunner.java
 └── SbJpaManyToManyApplication.java
+
+
+
+Key Concepts
+@Entity
+@ManyToMany
+mappedBy
+JpaRepository
+findById()
+Bidirectional entity relationships
+JPA/Hibernate persistence
+Database
+
+Configure your MySQL database in:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/sbms
+spring.datasource.username=root
+spring.datasource.password=your_password
+Run
+mvn spring-boot:run
+
+The application demonstrates saving Books with Authors and fetching a Book by its ID.
